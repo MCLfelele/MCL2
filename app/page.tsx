@@ -21,15 +21,15 @@ export default function Home() {
       <Aboutus />
       <Dedicated />
       <Digital />
-      <Beliefs />
-      <Wework />
-      <Ourteam />
+      
+      
+      
       {/* <Featured /> */}
-      <Manage />
-      <FAQ />
-      <Testimonials />
+      
+      
+     
       <Articles />
-      <Joinus />
+      
       <Insta />
     </main>
   )
