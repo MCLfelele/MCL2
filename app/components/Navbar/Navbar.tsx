@@ -5,7 +5,8 @@ import React from 'react';
 import { Bars3Icon } from '@heroicons/react/24/outline';
 import Drawer from "./Drawer";
 import Drawerdata from "./Drawerdata";
-import Contactusform from './Contactus';
+import Signdialog from "./Signdialog";
+{/*import Contactusform from './Contactus';*/}
 
 interface NavigationItem {
     name: string;
@@ -14,7 +15,7 @@ interface NavigationItem {
 }
 
 const navigation: NavigationItem[] = [
-    { name: 'About MCL', href: '#aboutus-section', current: false },
+    { name: 'About Us', href: '#aboutus-section', current: false },
     { name: 'Learning', href: '#faq-section', current: false },
     { name: 'Gallery', href: '#blog-section', current: false },
     { name: 'Enroll', href: '#testimonial-section', current: false },
@@ -64,7 +65,7 @@ const Navbar = () => {
 
                             </div>
                             {/* <button className='hidden lg:flex justify-end text-xl font-semibold bg-transparent py-4 px-6 lg:px-12 navbutton rounded-full hover:bg-navyblue hover:text-white'>Contact us</button> */}
-                            <Contactusform />
+                            <Signdialog />
                         </div>
 
 

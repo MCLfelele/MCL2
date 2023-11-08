@@ -46,6 +46,7 @@ const Banner = () => {
                 {/* COLUMN-2 */}
 
                 <div className='lg:ml-24 lg:pt-20 hidden lg:block pl-100 '>
+                    
                     <Image src="/images/banner/pic6.jpg" alt="hero-image" width={600} height={450} className='rounded-lg'/>
                 </div>
 
