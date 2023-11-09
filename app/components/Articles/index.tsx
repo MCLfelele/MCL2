@@ -13,7 +13,7 @@ interface DataType {
     
 }
 
-const postData: DataType[] = [
+{/*const postData: DataType[] = [
     {
         time: "Join",
         heading: 'We Launch Delia',
@@ -44,7 +44,7 @@ const postData: DataType[] = [
         heading: 'We Launch Delia',
         imgSrc: '/images/articles/pic8.jpg',
     },
-]
+]*/}
 
 // CAROUSEL SETTINGS
 
@@ -91,11 +91,109 @@ export default class MultipleItems extends Component {
 
                     <div className="text-center">
                         <h3 className="text-blue text-lg font-normal tracking-widest">Gallery</h3>
-                        <h3 className="text-4xl sm:text-6xl font-bold">Slide to see more</h3>
+                        <h3 className="text-4xl sm:text-6xl font-bold">Graders</h3>
+                    </div>
+                    <div className="container grid grid-cols-3 gap-2 mx-auto">
+                        <div className="w-full rounded">
+                            <img src="./images/articles/class1.jpg"
+                                alt="image" />
+                        </div>
+                        <div className="w-full rounded">
+                            <img src="./images/articles/class2.jpg"
+                                alt="image" />
+                        </div>
+                        <div className="w-full rounded">
+                            <img src="./images/articles/class3.jpg"
+                                alt="image" />
+                        </div>
+                        <div className="w-full rounded">
+                            <img src="./images/articles/class4.jpg"
+                                alt="image" />
+                        </div>
+                        <div className="w-full rounded">
+                            <img src="./images/articles/class5.jpg"
+                                alt="image" />
+                        </div>
+                      
+                    </div>
+                    <div className="text-center">
+                        <h3 className="text-blue text-lg font-normal tracking-widest">Gallery</h3>
+                        <h3 className="text-4xl sm:text-6xl font-bold">Toddlers</h3>
+                    </div>
+                    <div className="container grid grid-cols-3 gap-2 mx-auto">
+                        <div className="w-full rounded">
+                            <img src="./images/articles/toddler1.jpg"
+                                alt="image" />
+                        </div>
+                        <div className="w-full rounded">
+                            <img src="./images/articles/toddler2.jpg"
+                                alt="image" />
+                        </div>
+                        <div className="w-full rounded">
+                            <img src="./images/articles/toddler3.jpg"
+                                alt="image" />
+                        </div>
+                        <div className="w-full rounded">
+                            <img src="./images/articles/toddler4.jpg"
+                                alt="image" />
+                        </div>
+                      
+                    </div>
+                    <div className="text-center">
+                        <h3 className="text-blue text-lg font-normal tracking-widest">Gallery</h3>
+                        <h3 className="text-4xl sm:text-6xl font-bold">Club</h3>
+                    </div>
+                    <div className="container grid grid-cols-3 gap-2 mx-auto">
+                        <div className="w-full rounded">
+                            <img src="./images/articles/club1.jpg"
+                                alt="image" />
+                        </div>
+                        <div className="w-full rounded">
+                            <img src="./images/articles/club4.jpg"
+                                alt="image" />
+                        </div>
+                        <div className="w-full rounded">
+                            <img src="./images/articles/club7.jpg"
+                                alt="image" />
+                        </div>
+                        <div className="w-full rounded">
+                            <img src="./images/articles/club9.jpg"
+                                alt="image" />
+                        </div>
+                        <div className="w-full rounded">
+                            <img src="./images/articles/club10.jpg"
+                                alt="image" />
+                        </div>
+                        
+                      
+                    </div>
+                    <div className="text-center">
+                        <h3 className="text-blue text-lg font-normal tracking-widest">Gallery</h3>
+                        <h3 className="text-4xl sm:text-6xl font-bold">Events</h3>
+                    </div>
+                    <div className="container grid grid-cols-3 gap-2 mx-auto">
+                        <div className="w-full rounded">
+                            <img src="./images/articles/event1.jpg"
+                                alt="image" />
+                        </div>
+                        <div className="w-full rounded">
+                            <img src="./images/articles/event3.jpg"
+                                alt="image" />
+                        </div>
+                        <div className="w-full rounded">
+                            <img src="./images/articles/event6.jpg"
+                                alt="image" />
+                        </div>
+                        <div className="w-full rounded">
+                            <img src="./images/articles/event11.jpg"
+                                alt="image" />
+                        </div>
+                                              
+                      
                     </div>
 
 
-                    <Slider {...settings}>
+                    {/*<Slider {...settings}>
                         {postData.map((items, i) => (
                             <div key={i} >
 
@@ -111,7 +209,7 @@ export default class MultipleItems extends Component {
 
                             </div>
                         ))}
-                    </Slider>
+                        </Slider>*/}
                 </div>
             </div>
 
