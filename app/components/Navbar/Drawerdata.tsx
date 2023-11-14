@@ -9,11 +9,10 @@ interface NavigationItem {
 }
 
 const navigation: NavigationItem[] = [
-    { name: 'About Us', href: '#aboutus-section', current: true },
-    { name: 'Services', href: '#services-section', current: false },
-    { name: 'FAQ', href: '#faq-section', current: false },
-    { name: 'Blog', href: '#blog-section', current: false },
-    { name: 'Testimonial', href: '#testimonial-section', current: false },
+    { name: 'About Us', href: '#aboutus-section', current: false },
+    { name: 'Learning', href: '#faq-section', current: false },
+    { name: 'Gallery', href: '#blog-section', current: false },
+    { name: 'Enroll', href: '#testimonial-section', current: false },
 ]
 
 function classNames(...classes: string[]) {
@@ -26,7 +25,7 @@ const Data = () => {
             <div className="flex-1 space-y-4 py-1">
                 <div className="sm:block">
                     <div className="space-y-1 px-5 pt-2 pb-3">
-                        {navigation.map((item) => (
+                        {/*navigation.map((item) => (
                             <Link
                                 key={item.name}
                                 href={item.href}
@@ -38,12 +37,12 @@ const Data = () => {
                             >
                                 {item.name}
                             </Link>
-                        ))}
-                        <div className="mt-4"></div>
+                                ))*/}
+                       {/* <div className="mt-4"></div>
                         <button className="bg-navyblue w-full hover:text-white text-white border border-purple font-medium py-2 px-4 rounded">
-                            Contact Us
+                            Portal
                         </button>
-                        {/* <Contactusform /> */}
+                         <Contactusform /> */}
                     </div>
                 </div>
             </div>
