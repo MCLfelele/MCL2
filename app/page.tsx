@@ -20,6 +20,7 @@ export default function Home() {
       <Banner />
       <Aboutus />
       <Dedicated />
+      <Joinus />
       <Digital />
       
       
