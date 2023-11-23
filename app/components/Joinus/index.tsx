@@ -7,7 +7,7 @@ const Join = () => {
                 <div className="text-center">
                     <h3 className="text-blue text-lg font-normal tracking-widest">Enroll</h3>
                     <h2 className="text-4xl sm:text-6xl font-bold my-6 leading-10"> Join us today as <br /> as you enroll your kids.</h2>
-                    <p className="text-lightblack text-base font-normal">We accept kids on all classes from todlers, preschool, elementary and secondary. Leave your details with us and we'll be in touch</p>
+                    <p className="text-lightblack text-base font-normal">We accept kids on all classes from todlers, preschool, elementary and secondary. Leave your details with us and we will be in touch</p>
                 </div>
 
                 <div className="mx-auto max-w-4xl pt-5">
