@@ -38,11 +38,12 @@ const Data = () => {
                                 {item.name}
                             </Link>
                                 ))*/}
-                       {/* <div className="mt-4"></div>
+                        <div className="mt-4"></div>
+                       <a href="https://www.w3.org/">
                         <button className="bg-navyblue w-full hover:text-white text-white border border-purple font-medium py-2 px-4 rounded">
                             Portal
                         </button>
-                         <Contactusform /> */}
+                       </a>
                     </div>
                 </div>
             </div>
