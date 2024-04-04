@@ -20,7 +20,7 @@ const users = [
     { id: "user10_id", email: "gentry.anfelaoluwa@mcl.com", profileUrl: "https://portal-six-xi.vercel.app/PreSchool/Gentry-Anfelaoluwa.html" },
     { id: "user11_id", email: "nwaze.bruyson@mcl.com", profileUrl: "https://portal-six-xi.vercel.app/PreSchool/Nwaze-Bruyson.html" },
     { id: "user12_id", email: "ogundairo.omotade@mcl.com", profileUrl: "https://portal-six-xi.vercel.app/PreSchool/Ogundairo-Omotade.html" },
-    { id: "user13_id", email: "olatunjo.ojima@mcl.com", profileUrl: "https://portal-six-xi.vercel.app/PreSchool/Olatunjo-Ojima.html" },
+    { id: "user13_id", email: "olatunji.ojima@mcl.com", profileUrl: "https://portal-six-xi.vercel.app/PreSchool/Olatunji-Ojima.html" },
     { id: "user14_id", email: "oladokun.divine@mcl.com", profileUrl: "https://portal-six-xi.vercel.app/PreSchool/Oladokun-Divine.html" },
     { id: "user15_id", email: "olagunju.pius@mcl.com", profileUrl: "https://portal-six-xi.vercel.app/PreSchool/Olagunju-Pius.html" },
     { id: "user16_id", email: "olapade.thelight@mcl.com", profileUrl: "https://portal-six-xi.vercel.app/PreSchool/Olapade-Thelight.html" },
