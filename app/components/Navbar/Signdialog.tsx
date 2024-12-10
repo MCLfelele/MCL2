@@ -64,6 +64,9 @@ const users = [
     { id: "user135_id", email: "adepoju.jaron@mcl.com", profileUrl: "https://portal-six-xi.vercel.app/PreSchool/Adepoju-Jaron.html" },
     { id: "user135_id", email: "adewale.kikiola@mcl.com", profileUrl: "https://portal-six-xi.vercel.app/PreSchool/Adewale-Kikiola.html" },
     { id: "user135_id", email: "adelakun.ideraoluwa@mcl.com", profileUrl: "https://portal-six-xi.vercel.app/PreSchool/adelakun-ideraoluwa.html" },
+     { id: "user135_id", email: "akintade.daniel@mcl.com", profileUrl: "https://portal-six-xi.vercel.app/PreSchool/Akintade-Daniel.html" },
+  
+
     
 
 
