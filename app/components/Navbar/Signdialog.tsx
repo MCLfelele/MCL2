@@ -117,6 +117,8 @@ const users = [
     { id: "user78_id", email: "folarin.sunmisola@mcl.com", profileUrl: "https://portal-six-xi.vercel.app/GradeTwo/Folarin-Sunmisola.html" },
     { id: "user79_id", email: "popoola.oreoluwa@mcl.com", profileUrl: "https://portal-six-xi.vercel.app/GradeTwo/Popoola-Oreoluwa.html" },
     { id: "user80_id", email: "olatunji.peace@mcl.com", profileUrl: "https://portal-six-xi.vercel.app/GradeTwo/Olatunji-Peace.html" },
+     { id: "user761_id", email: "adelakun.ohunoluwa@mcl.com", profileUrl: "https://portal-six-xi.vercel.app/GradeTwo/Adelakun-Ohunoluwa.html" },
+  { id: "user771_id", email: "akintade.erioluwa@mcl.com", profileUrl: "https://portal-six-xi.vercel.app/GradeTwo/Akintade-Erioluwa.html" },
 
 
     { id: "user81_id", email: "adaramaja.akinbiyi@mcl.com", profileUrl: "https://portal-six-xi.vercel.app/GradeThree/Adaramaja-Akinbiyi.html" },
