@@ -55,6 +55,15 @@ const users = [
     { id: "user133_id", email: "oko-owoicho@mcl.com", profileUrl: "https://portal-six-xi.vercel.app/PreSchool/Oko-Julian-Owoicho.html" },
     { id: "user1234_id", email: "okoli-jaden@mcl.com", profileUrl: "https://portal-six-xi.vercel.app/PreSchool/Okoli-Jidenna-Jaden.html" },
     { id: "user135_id", email: "iborida-olorunjuwon@mcl.com", profileUrl: "https://portal-six-xi.vercel.app/PreSchool/Iborida-Daniel-Olorunjuwon.html" },
+    { id: "user135_id", email: "ismail.fahhama@mcl.com", profileUrl: "https://portal-six-xi.vercel.app/PreSchool/Ismail-Fahhama.html" },
+    { id: "user135_id", email: "motoro.jesse@mcl.com", profileUrl: "https://portal-six-xi.vercel.app/PreSchool/Motoro-Jesse.html" },
+    { id: "user135_id", email: "olaku.obasola@mcl.com", profileUrl: "https://portal-six-xi.vercel.app/PreSchool/Olaku-Obasola.html" },
+    { id: "user135_id", email: "elue.andrey@mcl.com", profileUrl: "https://portal-six-xi.vercel.app/PreSchool/Elue-Andrey.html" },
+    { id: "user135_id", email: "olatemiju.akorede@mcl.com", profileUrl: "https://portal-six-xi.vercel.app/PreSchool/Olatemiju-Akorede.html" },
+    { id: "user135_id", email: "aremu.arya@mcl.com", profileUrl: "https://portal-six-xi.vercel.app/PreSchool/Aremu-Arya.html" },
+    { id: "user135_id", email: "adepoju.jaron@mcl.com", profileUrl: "https://portal-six-xi.vercel.app/PreSchool/Adepoju-Jaron.html" },
+    { id: "user135_id", email: "adewale.kikiola@mcl.com", profileUrl: "https://portal-six-xi.vercel.app/PreSchool/Adewale-Kikiola.html" },
+    { id: "user135_id", email: "adelakun.ideraoluwa@mcl.com", profileUrl: "https://portal-six-xi.vercel.app/PreSchool/adelakun-ideraoluwa.html" },
     
 
 
