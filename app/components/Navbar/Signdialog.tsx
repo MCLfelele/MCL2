@@ -198,8 +198,6 @@ const users = [
     
 
     { id: "user138_id", email: "emmanuella.aderibigbe@mcl.com", profileUrl: "https://portal-six-xi.vercel.app/GradeSix/Emmanuella-Aderibigbe.html" },
-    { id: "user139_id", email: "paul.odeleye@mcl.com", profileUrl: "https://portal-six-xi.vercel.app/GradeSix/Paul-Odeleye.html" },
-
 
     { id: "user140_id", email: "tileolanimi.oluwatomiwo@mcl.com", profileUrl: "https://portal-six-xi.vercel.app/JssOne/Tileolanimi-Ogundeji-Oluwatomiwo.html" },
 
