@@ -181,7 +181,7 @@ const users = [
     { id: "user122_id", email: "balogun.david@mcl.com", profileUrl: "https://portal-six-xi.vercel.app/GradeFive/Balogun-David.html" },
     { id: "user123_id", email: "fakayode.olaoluwa@mcl.com", profileUrl: "https://portal-six-xi.vercel.app/GradeFive/Fakayode-Olaoluwa.html" },
     { id: "user124_id", email: "momoh.oluwafikayomi@mcl.com", profileUrl: "https://portal-six-xi.vercel.app/GradeFive/Momoh-Oluwafikayomi.html" },
-    { id: "user125_id", email: "p.odeleye@mcl.com", profileUrl: "https://portal-six-xi.vercel.app/Odeleye-Paul.html" },
+    
     { id: "user126_id", email: "yinka-sobo.daniel@mcl.com", profileUrl: "https://portal-six-xi.vercel.app/GradeFive/Yinka-Sobo-Daniel-Semilore.html" },
     { id: "user127_id", email: "adebayo.olansile@mcl.com", profileUrl: "https://portal-six-xi.vercel.app/GradeFive/Adebayo-Mufeedah-Olansile.html" },
     { id: "user128_id", email: "aderibigbe.emmanuella@mcl.com", profileUrl: "https://portal-six-xi.vercel.app/GradeFive/Aderibigbe-Emmanuella.html" },
@@ -204,9 +204,12 @@ const users = [
   { id: "user234_id", email: "king.jomiloju@mcl.com", profileUrl: "https://portal-six-xi.vercel.app/King-Jomiloju.html" },
   { id: "user235_id", email: "olayemi.Raelle@mcl.com", profileUrl: "https://portal-six-xi.vercel.app//Olayemi-Raelle.html" },
   { id: "user236_id", email: "onaja.empress@mcl.com", profileUrl: "https://portal-six-xi.vercel.app/Onaja-Empress.html" },
-  { id: "user237_id", email: "akinbogun.christopher@mcl.com", profileUrl: "https://portal-six-xi.vercel.app/Akinbogun-Christopher.html" },
+ 
   { id: "user238_id", email: "ogundeji-tileolanimi@mcl.com", profileUrl: "https://portal-six-xi.vercel.app/Ogundeji-Tileolanimi.html" },
   { id: "user239_id", email: "onaja.emilia@mcl.com", profileUrl: "https://portal-six-xi.vercel.app/Onaja-Emilia.html" },
+
+    { id: "user125_id", email: "p.odeleye@mcl.com", profileUrl: "https://portal-six-xi.vercel.app/Odeleye-Paul.html" },
+    { id: "user237_id", email: "akinbogun.christopher@mcl.com", profileUrl: "https://portal-six-xi.vercel.app/Akinbogun-Christopher.html" },
   
 
 
