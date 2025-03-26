@@ -234,39 +234,58 @@ const users = [
 
 
 
-const Signin = () => {
-    let [isOpen, setIsOpen] = useState(false)
-    const [email, setEmail] = useState('')
-    const [password, setPassword] = useState('')
+// const Signin = () => {
+//     let [isOpen, setIsOpen] = useState(false)
+//     const [email, setEmail] = useState('')
+//     const [password, setPassword] = useState('')
 
     
         
 
-    const signin = (e: React.FormEvent) => {
-        e.preventDefault();
+//     const signin = (e: React.FormEvent) => {
+//         e.preventDefault();
 
-        // Find the user based on the entered email
-        const user = users.find((u) => u.email === email);
+//         // Find the user based on the entered email
+//         const user = users.find((u) => u.email === email);
 
-        if (!user) {
-            console.log("User not found.");
-            return;
-        }
+//         if (!user) {
+//             console.log("User not found.");
+//             return;
+//         }
 
 
-        signInWithEmailAndPassword(auth, email, password)
-            .then((userCredential) => {
+//         signInWithEmailAndPassword(auth, email, password)
+//             .then((userCredential) => {
 
-                const userId = user.id; // Retrieve the user's unique ID
-                console.log("User ID:", userId);
+//                 const userId = user.id; // Retrieve the user's unique ID
+//                 console.log("User ID:", userId);
 
-                console.log(userCredential)
-            }).catch((error) => {
-                console.log(error)
-            })
-            window.location.href = user.profileUrl;
-    }
+//                 console.log(userCredential)
+//             }).catch((error) => {
+//                 console.log(error)
+//             })
+//             window.location.href = user.profileUrl;
+//     }
+const signin = (e: React.FormEvent) => {
+    e.preventDefault();
 
+    signInWithEmailAndPassword(auth, email, password)
+        .then((userCredential) => {
+            // On successful authentication
+            const user = users.find((u) => u.email === email);
+            if (user) {
+                window.location.href = user.profileUrl;
+            } else {
+                console.error("User not found in local database");
+                // Handle case where user is authenticated but not in local users array
+            }
+        })
+        .catch((error) => {
+            console.error("Authentication error:", error);
+            // Add user-friendly error message here
+            alert("Authentication failed. Please check your email and password.");
+        });
+}
     const closeModal = () => {
         setIsOpen(false)
     }
